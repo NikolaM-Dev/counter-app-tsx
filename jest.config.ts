@@ -1,12 +1,17 @@
 import type { Config } from '@jest/types';
 
 const config: Config.InitialOptions = {
+  setupFilesAfterEnv: ['<rootDir>/jest-setup.ts'],
   collectCoverageFrom: ['src/**/*.{ts,tsx}', '!src/**/*.d.ts'],
+  testEnvironment: 'jsdom',
   moduleNameMapper: {
     '\\.(css|less)$': 'identity-obj-proxy',
   },
-  setupFilesAfterEnv: ['<rootDir>/jest-setup.ts'],
-  testEnvironment: 'jsdom',
+  watchPlugins: [
+    'jest-watch-typeahead/filename',
+    'jest-watch-typeahead/testname',
+  ],
+  resetMocks: true,
 };
 
 export default config;
