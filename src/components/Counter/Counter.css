@@ -1,0 +1,35 @@
+.counter {
+  background-color: hsl(227, 12%, 15%);
+  border-radius: 1.125rem;
+  color: hsla(0, 0%, 100%, 0.945);
+  max-width: 1123px;
+  padding: 6rem;
+}
+
+.counter__heading {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.counter__value {
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.counter__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.counter__btn {
+  background-color: hsl(193, 95%, 68%);
+  border-radius: 1.25rem;
+  border: none;
+  color: hsl(227, 12%, 15%);
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0.625rem;
+  padding: 1rem;
+  width: 12.5rem;
+}
