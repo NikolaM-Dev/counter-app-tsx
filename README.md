@@ -13,7 +13,7 @@
 Clone the project
 
 ```bash
-  git@github.com:NikolaM-Dev/counter-app-tsx.git
+  git clone https://github.com/NikolaM-Dev/counter-app-tsx.git
 ```
 
 Go to the project directory
