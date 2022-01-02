@@ -11,7 +11,7 @@ cd dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'build: Add to github pages'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:NikolaM-Dev/counter-app-tsx.git main:gh-pages
