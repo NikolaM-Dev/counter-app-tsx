@@ -1,12 +1,12 @@
 <h1 align="center">⚛️ Counter App</h1>
 <p align="center">
-  A simple counter app for learn ReactJS con typescript
+  A simple counter app for learn ReactJS with typescript
 </p>
 <img align="center" src="./design/counter_app.png" alt="Counter App">
 
 ## Demo
 
-[Counter App](https://nikolam-dev.github.io/)
+[Counter App](https://nikolam-dev.github.io/counter-app-tsx/)
 
 ## Run Locally
 
@@ -19,7 +19,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd counter-tsx
+  cd counter-app-tsx
 ```
 
 Install dependencies
